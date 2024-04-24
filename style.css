@@ -32,7 +32,8 @@ body {
 }
 
 .navbar {
-  background-color: #0a2338 !important;
+  background-color: #0a2938 !important;
+  background-color: #2a424e !important;
   padding: 5px;
 }
 
@@ -56,4 +57,12 @@ body {
 
 .navbar-toggler {
   border: 1px solid rgba(255, 255, 255, 0.505);
+}
+
+.projects {
+  
+}
+
+.project {
+  margin: 40px 20px;
 }
