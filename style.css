@@ -212,8 +212,9 @@ html {
 }
 
 #contactModal {
-	background-color: rgba(0, 0, 0, 0.4);
-	color: rgb(0, 37, 138) !important;
+	background-color: rgba(0, 0, 0, 0.45);
+	background-color: rgba(0, 0, 0, 0.45);
+	color: navy !important;
 }
 
 #contactModal .modal-content {
@@ -235,4 +236,35 @@ html {
 
 #contactModal a {
 	text-decoration: none;
+}
+
+.footer a {
+	color: white;
+	text-decoration: none;
+}
+
+.footer-icon {
+	font-size: 75px;
+}
+
+.footer-icon-name {
+	font-size: 20px;
+	margin-left: 10px;
+	color: white;
+}
+
+.footer .nav-link {
+	color: white !important;
+}
+
+.footer .bi.bi-envelope-at-fill {
+	color: rgb(122, 246, 122);
+}
+
+.footer .bi.bi-linkedin {
+	color: #0466e6;
+}
+
+.footer .bi.bi-github {
+	color: #000000;
 }
