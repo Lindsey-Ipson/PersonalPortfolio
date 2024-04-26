@@ -199,3 +199,40 @@ h1 {
 	text-indent: 2em;
 	margin-bottom: 1em;
 }
+
+html {
+	scroll-behavior: smooth;
+}
+
+/* To allow for nav links to auto-scroll to appropriate sections, without navbar covering the top */
+#aboutSection,
+#projectsSection {
+	padding-top: 60px; /* May need to be adjusted based on navbar's height */
+	margin-top: -60px; /* Negative margin to offset the added padding */
+}
+
+#contactModal {
+	background-color: rgba(0, 0, 0, 0.4);
+	color: rgb(0, 37, 138) !important;
+}
+
+#contactModal .modal-content {
+	background-color: rgb(255, 255, 255);
+}
+
+#contactModal .modal-header {
+	background-color: rgb(219, 219, 219);
+	background-color: rgb(236, 234, 234);
+}
+
+#contactModal .modal-footer {
+	background-color: rgb(236, 234, 234);
+}
+
+#contactModal .modal-body {
+	background-color: rgb(255, 255, 255);
+}
+
+#contactModal a {
+	text-decoration: none;
+}

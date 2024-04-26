@@ -53,13 +53,28 @@
 				>
 					<ul class="navbar-nav" style="font-size: 1.3rem">
 						<li class="nav-item">
-							<a href="/" class="nav-link">
+							<a href="#projectsSection" class="nav-link">
 								<i class="bi bi-journal-code"></i> Portfolio
 							</a>
 						</li>
 						<li class="nav-item">
+							<a href="#aboutSection" class="nav-link">
+								<i class="bi bi-person-circle"></i> About
+							</a>
+						</li>
+						<li class="nav-item">
 							<a href="/" class="nav-link">
-								Resume <i class="bi bi-mortarboard"></i>
+								<i class="bi bi-mortarboard"></i> Resume
+							</a>
+						</li>
+						<li class="nav-item">
+							<a
+								href="#"
+								class="nav-link"
+								data-bs-toggle="modal"
+								data-bs-target="#contactModal"
+							>
+								<i class="bi bi-envelope-arrow-up"></i> Contact
 							</a>
 						</li>
 					</ul>
@@ -68,7 +83,7 @@
 		</nav>
 
 		<div class="main-content">
-			<div class="projects">
+			<div class="projects" id="projectsSection">
 				<div class="projects-content-box">
 					<h1>Projects</h1>
 					<div class="container">
@@ -312,7 +327,7 @@
 				</div>
 			</div>
 
-			<div class="about">
+			<div class="about" id="aboutSection">
 				<div class="about-content-box">
 					<h1>About Me</h1>
 					<div class="container">
@@ -412,6 +427,74 @@
 						</div>
 					</div>
 				</footer>
+			</div>
+
+			<!-- Modal -->
+			<div
+				class="modal fade"
+				id="contactModal"
+				tabindex="-1"
+				aria-labelledby="contactModalLabel"
+				aria-hidden="true"
+			>
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="contactModalLabel">Contact Me</h5>
+							<button
+								type="button"
+								class="btn-close"
+								data-bs-dismiss="modal"
+								aria-label="Close"
+							></button>
+						</div>
+						<!--
+            <div class="modal-body">
+                <p><a href="mailto:lindseyipson@gmail.com"><i class="bi bi-envelope-at-fill"></i> Email me</a>&#40;lindseyipson@gmail.com&#41;</p>
+								<p><a href="https://www.linkedin.com/in/lindsey-ipson/">Visit my LinkedIn</a></p>
+								<p>GitHub: <a href="https://www.linkedin.com/in/lindsey-ipson/">https://github.com/Lindsey-Ipson</a></p>
+            </div>
+						-->
+
+						<div class="modal-body">
+							<p>
+								<i class="bi bi-envelope-at-fill"></i> lindseyipson@gmail.com
+							</p>
+
+							<p>
+								<a
+									href="mailto:lindseyipson@gmail.com"
+									class="btn btn-outline-primary"
+								>
+									<i class="bi bi-envelope-at-fill"></i> Email me
+									<i class="bi bi-arrow-up-right"></i>
+								</a>
+							</p>
+							<p>
+								<a
+									href="https://www.linkedin.com/in/lindsey-ipson/"
+									class="btn btn-outline-primary"
+								>
+									<i class="bi bi-linkedin"></i> Visit my LinkedIn
+									<i class="bi bi-arrow-up-right"></i>
+								</a>
+							</p>
+							<p>
+								<a
+									href="https://github.com/Lindsey-Ipson"
+									class="btn btn-outline-primary"
+								>
+									<i class="bi bi-github"></i> Visit my GitHub
+									<i class="bi bi-arrow-up-right"></i>
+								</a>
+							</p>
+						</div>
+
+						<div class="modal-footer">
+							<p>Looking forward to hearing from you!</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 
