@@ -268,3 +268,38 @@ html {
 .footer .bi.bi-github {
 	color: #000000;
 }
+
+.scrolling-wrapper {
+	height: 75px;
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+	white-space: nowrap;
+}
+
+.scroll-item {
+	height: 50px;
+	min-width: 100px;
+	margin-right: 10px;
+	flex-shrink: 0;
+	animation: scroll 40s linear infinite;
+}
+
+@keyframes scroll {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(
+			-1760px
+		); /* May need adjustment based on content width */
+	}
+}
+
+.tech-list {
+	font-size: 20px;
+}
+
+.techSection h3 {
+	margin-bottom: 30px;
+}
